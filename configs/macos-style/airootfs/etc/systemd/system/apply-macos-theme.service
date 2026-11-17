@@ -1,0 +1,12 @@
+[Unit]
+Description=Apply macOS Theme on First Boot
+After=graphical.target
+
+[Service]
+Type=oneshot
+User=macos
+WorkingDirectory=/home/macos
+ExecStart=/usr/local/bin/apply-macos-theme.sh
+
+[Install]
+WantedBy=graphical.target
