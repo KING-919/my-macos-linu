@@ -117,8 +117,10 @@ usbmuxd
 usbutils
 vim
 virtualbox-guest-utils
-plasma-desktop
+plasma-meta
 sddm
+konsole
+dolphin
 xorg-server
 networkmanager
 plasma-nm
